@@ -19,9 +19,9 @@ function Home() {
             <div className="w-full py-8 mt-4 text-center">
                 <Container>
                     <div className="flex flex-wrap">
-                        <div className="p-2 w-full">
-                            <h1 className="text-2xl font-bold hover:text-gray-500">
-                                Login to read posts
+                        <div className="p-30 w-full">
+                            <h1 className="text-2xl font-bold bg-blue-300 rounded hover:text-blue-200">
+                                The key to a happy life is positive thinking
                             </h1>
                         </div>
                     </div>
