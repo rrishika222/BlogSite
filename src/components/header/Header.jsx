@@ -26,12 +26,12 @@ const Header = () => {
             active: !authStatus,
         },
         {
-            name: "All Posts",
+            name: "All Journals",
             slug: "/all-posts",
             active: authStatus,
         },
         {
-            name: "Add Post",
+            name: "Add Journal",
             slug: "/add-post",
             active: authStatus,
         },

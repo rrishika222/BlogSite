@@ -16,17 +16,20 @@ function Home() {
   
     if (posts.length === 0) {
         return (
-            <div className="w-full py-8 mt-4 text-center">
-                <Container>
-                    <div className="flex flex-wrap">
-                        <div className="p-30 w-full">
-                            <h1 className="text-2xl font-bold bg-blue-300 rounded hover:text-blue-200">
-                                The key to a happy life is positive thinking
-                            </h1>
-                        </div>
-                    </div>
-                </Container>
+            <div className="w-full py-12 mt-6 text-center bg-gradient-to-r from-blue-300 via-blue-400 to-blue-500">
+    <Container>
+        <div className="flex flex-wrap justify-center">
+            <div className="p-8 w-full max-w-2xl">
+                <h1 className="text-3xl font-extrabold text-white bg-opacity-80 p-6 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105">
+                    "The key to a happy life is positive thinking"
+                </h1>
             </div>
+        </div>
+    </Container>
+</div>
+
+        
+
         )
     }
     return (
