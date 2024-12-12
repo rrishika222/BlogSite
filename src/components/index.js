@@ -1,7 +1,6 @@
 import Header from './header/Header';
 import Footer from './footer/Footer';
 import Container from './container/Container';
-import Logo from './Logo.jsx';
 import LogoutBtn from './header/LogoutBtn';
 import RTE from './RTE.jsx';
 import Signup from './Signup.jsx';
@@ -16,7 +15,6 @@ export {
     Header,
     Footer,
     Container,
-    Logo,
     LogoutBtn,
     RTE,
     Signup,
