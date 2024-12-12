@@ -5,7 +5,7 @@ import {Button, Input} from "./index"
 import {useDispatch} from "react-redux"
 import authService from "../appwrite/auth"
 import {useForm} from "react-hook-form"
-import Icon from "./Logo/favicon.ico"
+import Logo from "../components/assests/logo.png"
 
 function Login() {
     const navigate = useNavigate()
@@ -34,7 +34,7 @@ function Login() {
         <div className={`mx-auto w-full max-w-lg bg-gray-100 rounded-xl p-10 border border-black/10`}>
         <div className="mb-2 flex justify-center">
                     <span className="inline-block w-full max-w-[100px]">
-                    <img src={Icon}></img>
+                    <img src={Logo} alt="Logo" width="50px" height="50px"></img>
                     </span>
         </div>
         <h2 className="text-center text-2xl font-bold leading-tight">Sign in to your account</h2>

@@ -3,7 +3,7 @@ import { Container, LogoutBtn } from '../index'
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
-import Icon from "../logo/favicon.ico"
+import Logo from '../assests/logo.png';
 
 const Header = () => {
     const authStatus = useSelector((state) => state.auth.status)
@@ -42,7 +42,7 @@ const Header = () => {
         <nav className='flex'>
           <div className='mr-4'>
             <Link to='/'>
-               <img src={Icon}></img>
+               <img src={Logo} alt="Logo" width="50px" height="50px"></img>
               </Link>
           </div>
           <ul className='flex ml-auto'>
